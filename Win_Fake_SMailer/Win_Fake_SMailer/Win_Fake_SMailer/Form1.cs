@@ -30,6 +30,7 @@ namespace Win_Fake_SMailer
         private void chiudiTutto_Click(object sender, EventArgs e)
         {
             Close();
+            System.Console.Beep();
         }
 
         private void impostaServer_Click(object sender, EventArgs e)
@@ -54,6 +55,7 @@ namespace Win_Fake_SMailer
 
         private void Info_Click(object sender, EventArgs e)
         {
+            System.Console.Beep();
             MessageBox.Show("Programma liberamente distribuibile creato da FabioNET v.1.0 - BLAT version 0.1.2 GNU General Public License 3.0");
             System.Console.Beep();
         }

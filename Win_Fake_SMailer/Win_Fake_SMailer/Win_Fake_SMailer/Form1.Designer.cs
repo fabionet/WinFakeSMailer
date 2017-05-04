@@ -62,21 +62,22 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
             this.listFile = new System.Windows.Forms.ListView();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabFunzioni1 = new System.Windows.Forms.TabControl();
+            this.Opzioni = new System.Windows.Forms.TabPage();
+            this.Tools = new System.Windows.Forms.TabPage();
+            this.Extra = new System.Windows.Forms.TabPage();
             this.ExtraPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.tabControl1.SuspendLayout();
+            this.tabFunzioni1.SuspendLayout();
             this.SuspendLayout();
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(346, 9);
+            this.linkLabel1.Font = new System.Drawing.Font("NASDAQER", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.Location = new System.Drawing.Point(266, 9);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(479, 55);
+            this.linkLabel1.Size = new System.Drawing.Size(633, 61);
             this.linkLabel1.TabIndex = 0;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "WIN FAKE SMAILER";
@@ -84,16 +85,19 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.button1.ForeColor = System.Drawing.Color.LimeGreen;
             this.button1.Location = new System.Drawing.Point(1028, 86);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 135);
             this.button1.TabIndex = 1;
             this.button1.Text = "&INVIO FAKE MAIL";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.LawnGreen;
             this.label1.Location = new System.Drawing.Point(270, 89);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(80, 13);
@@ -103,7 +107,8 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(245, 133);
+            this.label2.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label2.Location = new System.Drawing.Point(245, 115);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 13);
             this.label2.TabIndex = 3;
@@ -112,7 +117,8 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(272, 196);
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(274, 196);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(78, 13);
             this.label3.TabIndex = 4;
@@ -121,6 +127,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.DarkOrange;
             this.label4.Location = new System.Drawing.Point(263, 265);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(105, 13);
@@ -130,7 +137,8 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(274, 232);
+            this.label5.ForeColor = System.Drawing.Color.DarkOrange;
+            this.label5.Location = new System.Drawing.Point(274, 231);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(94, 13);
             this.label5.TabIndex = 6;
@@ -139,15 +147,17 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Red;
             this.label6.Location = new System.Drawing.Point(263, 294);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(171, 13);
+            this.label6.Size = new System.Drawing.Size(243, 13);
             this.label6.TabIndex = 7;
-            this.label6.Text = "DESCRIZIONE DEL MESSAGGIO";
+            this.label6.Text = "DESCRIZIONE DEL MESSAGGIO --------------------->";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.LawnGreen;
             this.label7.Location = new System.Drawing.Point(25, 312);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(235, 13);
@@ -156,8 +166,10 @@
             // 
             // testomessaggio1
             // 
+            this.testomessaggio1.BackColor = System.Drawing.Color.SteelBlue;
             this.testomessaggio1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.testomessaggio1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.testomessaggio1.ForeColor = System.Drawing.Color.DarkBlue;
             this.testomessaggio1.Location = new System.Drawing.Point(266, 310);
             this.testomessaggio1.Name = "testomessaggio1";
             this.testomessaggio1.Size = new System.Drawing.Size(674, 248);
@@ -167,6 +179,8 @@
             // 
             // mittente1
             // 
+            this.mittente1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.mittente1.ForeColor = System.Drawing.Color.DarkBlue;
             this.mittente1.Location = new System.Drawing.Point(356, 86);
             this.mittente1.Name = "mittente1";
             this.mittente1.Size = new System.Drawing.Size(368, 20);
@@ -174,13 +188,17 @@
             // 
             // destinatario1
             // 
-            this.destinatario1.Location = new System.Drawing.Point(356, 130);
+            this.destinatario1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.destinatario1.ForeColor = System.Drawing.Color.DarkBlue;
+            this.destinatario1.Location = new System.Drawing.Point(356, 112);
             this.destinatario1.Name = "destinatario1";
             this.destinatario1.Size = new System.Drawing.Size(368, 20);
             this.destinatario1.TabIndex = 11;
             // 
             // oggetto1
             // 
+            this.oggetto1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.oggetto1.ForeColor = System.Drawing.Color.DarkBlue;
             this.oggetto1.Location = new System.Drawing.Point(356, 193);
             this.oggetto1.Name = "oggetto1";
             this.oggetto1.Size = new System.Drawing.Size(368, 20);
@@ -188,16 +206,20 @@
             // 
             // impostaServer
             // 
+            this.impostaServer.BackColor = System.Drawing.SystemColors.Desktop;
+            this.impostaServer.ForeColor = System.Drawing.Color.DarkOrange;
             this.impostaServer.Location = new System.Drawing.Point(829, 227);
             this.impostaServer.Name = "impostaServer";
             this.impostaServer.Size = new System.Drawing.Size(193, 55);
             this.impostaServer.TabIndex = 13;
-            this.impostaServer.Text = "Imposta &Server";
-            this.impostaServer.UseVisualStyleBackColor = true;
+            this.impostaServer.Text = "IMPOSTA &SERVER";
+            this.impostaServer.UseVisualStyleBackColor = false;
             this.impostaServer.Click += new System.EventHandler(this.impostaServer_Click);
             // 
             // serverPop1
             // 
+            this.serverPop1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.serverPop1.ForeColor = System.Drawing.Color.DarkBlue;
             this.serverPop1.Location = new System.Drawing.Point(374, 229);
             this.serverPop1.Name = "serverPop1";
             this.serverPop1.Size = new System.Drawing.Size(223, 20);
@@ -205,6 +227,8 @@
             // 
             // serverSmtp1
             // 
+            this.serverSmtp1.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.serverSmtp1.ForeColor = System.Drawing.Color.DarkBlue;
             this.serverSmtp1.Location = new System.Drawing.Point(374, 262);
             this.serverSmtp1.Name = "serverSmtp1";
             this.serverSmtp1.Size = new System.Drawing.Size(223, 20);
@@ -212,38 +236,43 @@
             // 
             // resettaTutto1
             // 
+            this.resettaTutto1.BackColor = System.Drawing.SystemColors.Desktop;
+            this.resettaTutto1.ForeColor = System.Drawing.Color.Red;
             this.resettaTutto1.Location = new System.Drawing.Point(1028, 227);
             this.resettaTutto1.Name = "resettaTutto1";
             this.resettaTutto1.Size = new System.Drawing.Size(118, 55);
             this.resettaTutto1.TabIndex = 16;
-            this.resettaTutto1.Text = "&Resetta Tutto";
-            this.resettaTutto1.UseVisualStyleBackColor = true;
+            this.resettaTutto1.Text = "&RESETTA TUTTO";
+            this.resettaTutto1.UseVisualStyleBackColor = false;
             this.resettaTutto1.Click += new System.EventHandler(this.resettaTutto1_Click);
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(356, 156);
+            this.progressBar1.Location = new System.Drawing.Point(14, 167);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(368, 31);
+            this.progressBar1.Size = new System.Drawing.Size(710, 20);
             this.progressBar1.TabIndex = 17;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(98, 345);
+            this.label8.ForeColor = System.Drawing.Color.LawnGreen;
+            this.label8.Location = new System.Drawing.Point(62, 345);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(162, 13);
+            this.label8.Size = new System.Drawing.Size(198, 13);
             this.label8.TabIndex = 19;
-            this.label8.Text = "BROWSER PER GLI ALLEGATI";
+            this.label8.Text = "<----------BROWSER PER GLI ALLEGATI";
             // 
             // chiudiTutto
             // 
+            this.chiudiTutto.BackColor = System.Drawing.SystemColors.Desktop;
+            this.chiudiTutto.ForeColor = System.Drawing.Color.Orange;
             this.chiudiTutto.Location = new System.Drawing.Point(12, 530);
             this.chiudiTutto.Name = "chiudiTutto";
             this.chiudiTutto.Size = new System.Drawing.Size(176, 28);
             this.chiudiTutto.TabIndex = 20;
             this.chiudiTutto.Text = "CHIUDI TUTTO";
-            this.chiudiTutto.UseVisualStyleBackColor = true;
+            this.chiudiTutto.UseVisualStyleBackColor = false;
             this.chiudiTutto.Click += new System.EventHandler(this.chiudiTutto_Click);
             // 
             // ToolsPanel
@@ -258,8 +287,8 @@
             // 
             this.EventoMessaggio.AutoSize = true;
             this.EventoMessaggio.Font = new System.Drawing.Font("NEW ACADEMY", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EventoMessaggio.ForeColor = System.Drawing.Color.Black;
-            this.EventoMessaggio.Location = new System.Drawing.Point(12, 165);
+            this.EventoMessaggio.ForeColor = System.Drawing.Color.YellowGreen;
+            this.EventoMessaggio.Location = new System.Drawing.Point(351, 136);
             this.EventoMessaggio.Name = "EventoMessaggio";
             this.EventoMessaggio.Size = new System.Drawing.Size(219, 28);
             this.EventoMessaggio.TabIndex = 22;
@@ -280,6 +309,7 @@
             // 
             this.nullAction.AutoSize = true;
             this.nullAction.Checked = true;
+            this.nullAction.ForeColor = System.Drawing.Color.Lime;
             this.nullAction.Location = new System.Drawing.Point(16, 61);
             this.nullAction.Name = "nullAction";
             this.nullAction.Size = new System.Drawing.Size(99, 17);
@@ -291,6 +321,7 @@
             // consoleMsdos
             // 
             this.consoleMsdos.AutoSize = true;
+            this.consoleMsdos.ForeColor = System.Drawing.Color.Lime;
             this.consoleMsdos.Location = new System.Drawing.Point(16, 38);
             this.consoleMsdos.Name = "consoleMsdos";
             this.consoleMsdos.Size = new System.Drawing.Size(126, 17);
@@ -302,6 +333,7 @@
             // visualizzaComando
             // 
             this.visualizzaComando.AutoSize = true;
+            this.visualizzaComando.ForeColor = System.Drawing.Color.Lime;
             this.visualizzaComando.Location = new System.Drawing.Point(16, 15);
             this.visualizzaComando.Name = "visualizzaComando";
             this.visualizzaComando.Size = new System.Drawing.Size(155, 17);
@@ -311,16 +343,20 @@
             // 
             // Info
             // 
+            this.Info.BackColor = System.Drawing.SystemColors.Desktop;
+            this.Info.ForeColor = System.Drawing.Color.Orange;
             this.Info.Location = new System.Drawing.Point(194, 530);
             this.Info.Name = "Info";
             this.Info.Size = new System.Drawing.Size(65, 28);
             this.Info.TabIndex = 24;
             this.Info.Text = "INFO APP";
-            this.Info.UseVisualStyleBackColor = true;
+            this.Info.UseVisualStyleBackColor = false;
             this.Info.Click += new System.EventHandler(this.Info_Click);
             // 
             // ListaServerPop
             // 
+            this.ListaServerPop.BackColor = System.Drawing.SystemColors.MenuText;
+            this.ListaServerPop.ForeColor = System.Drawing.Color.Red;
             this.ListaServerPop.FormattingEnabled = true;
             this.ListaServerPop.Items.AddRange(new object[] {
             "Nessun Server",
@@ -361,6 +397,8 @@
             // 
             // ListaServerSmtp
             // 
+            this.ListaServerSmtp.BackColor = System.Drawing.SystemColors.MenuText;
+            this.ListaServerSmtp.ForeColor = System.Drawing.Color.Red;
             this.ListaServerSmtp.FormattingEnabled = true;
             this.ListaServerSmtp.Items.AddRange(new object[] {
             "Nessun Server",
@@ -423,7 +461,9 @@
             // 
             // listFile
             // 
+            this.listFile.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.listFile.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.listFile.ForeColor = System.Drawing.Color.DarkBlue;
             this.listFile.Location = new System.Drawing.Point(12, 361);
             this.listFile.Name = "listFile";
             this.listFile.Size = new System.Drawing.Size(247, 163);
@@ -431,43 +471,59 @@
             this.listFile.UseCompatibleStateImageBehavior = false;
             this.listFile.View = System.Windows.Forms.View.Details;
             // 
-            // tabControl1
+            // tabFunzioni1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(946, 310);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(200, 248);
-            this.tabControl1.TabIndex = 29;
+            this.tabFunzioni1.Controls.Add(this.Opzioni);
+            this.tabFunzioni1.Controls.Add(this.Tools);
+            this.tabFunzioni1.Controls.Add(this.Extra);
+            this.tabFunzioni1.Location = new System.Drawing.Point(946, 310);
+            this.tabFunzioni1.Name = "tabFunzioni1";
+            this.tabFunzioni1.SelectedIndex = 0;
+            this.tabFunzioni1.Size = new System.Drawing.Size(200, 248);
+            this.tabFunzioni1.TabIndex = 29;
             // 
-            // tabPage1
+            // Opzioni
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(192, 222);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.Opzioni.BackColor = System.Drawing.Color.Black;
+            this.Opzioni.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Opzioni.ForeColor = System.Drawing.Color.Lime;
+            this.Opzioni.Location = new System.Drawing.Point(4, 22);
+            this.Opzioni.Name = "Opzioni";
+            this.Opzioni.Padding = new System.Windows.Forms.Padding(3);
+            this.Opzioni.Size = new System.Drawing.Size(192, 222);
+            this.Opzioni.TabIndex = 0;
+            this.Opzioni.Text = "Opzioni";
             // 
-            // tabPage2
+            // Tools
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(192, 222);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.Tools.BackColor = System.Drawing.Color.Black;
+            this.Tools.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Tools.ForeColor = System.Drawing.Color.Lime;
+            this.Tools.Location = new System.Drawing.Point(4, 22);
+            this.Tools.Name = "Tools";
+            this.Tools.Padding = new System.Windows.Forms.Padding(3);
+            this.Tools.Size = new System.Drawing.Size(192, 222);
+            this.Tools.TabIndex = 1;
+            this.Tools.Text = "Tools";
+            // 
+            // Extra
+            // 
+            this.Extra.BackColor = System.Drawing.Color.Black;
+            this.Extra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Extra.ForeColor = System.Drawing.Color.Lime;
+            this.Extra.Location = new System.Drawing.Point(4, 22);
+            this.Extra.Name = "Extra";
+            this.Extra.Size = new System.Drawing.Size(192, 222);
+            this.Extra.TabIndex = 2;
+            this.Extra.Text = "Extra";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1158, 570);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabFunzioni1);
             this.Controls.Add(this.listFile);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.ListaServerSmtp);
@@ -504,7 +560,7 @@
             this.ExtraPanel.ResumeLayout(false);
             this.ExtraPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.tabControl1.ResumeLayout(false);
+            this.tabFunzioni1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -546,9 +602,10 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.ListView listFile;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabControl tabFunzioni1;
+        private System.Windows.Forms.TabPage Opzioni;
+        private System.Windows.Forms.TabPage Tools;
+        private System.Windows.Forms.TabPage Extra;
     }
 }
 
