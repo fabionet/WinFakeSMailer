@@ -13,6 +13,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Description = Fake Mailer per BLAT da riga di comando.
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B4673693-C2AE-412C-A1B3-C228BE9DA9CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
